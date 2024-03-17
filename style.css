@@ -5,33 +5,43 @@ body {
     margin: 0 auto;
     }
 
+ul {
+    padding: 0px!important; 
+}    
+
 .menu-main{
     width: 100%;
     background-color: #252323;
-    height: 60px;
+    height: 65px;
+    
 }
 .main{
     margin: 0 auto;
-     width: 980px;
-     float: left;
+    width: 980px;
     position: relative;
-}
-
-.logo {
-    float: left;
-    padding: 16px;
-    width: 70%;
     
-   }
-
-.network ul li{
-    display:inline-block;
-    margin-left: 15px;
-    float: left;
-    list-style: none;     
 }
 
-.network{
+.logo{
+    
+    float: left;
+    padding: 10px;
+    margin-left: 12%;
+ 
+}
+
+.network {
     width: 25%;
     float: right;
 }
+
+
+.network ul li{
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none; 
+    margin-top: 13px;
+    
+}
+
