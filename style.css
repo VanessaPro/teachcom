@@ -21,4 +21,17 @@ body {
     float: left;
     padding: 16px;
     width: 70%;
+    
    }
+
+.network ul li{
+    display:inline-block;
+    margin-left: 15px;
+    float: left;
+    list-style: none;     
+}
+
+.network{
+    width: 25%;
+    float: right;
+}
