@@ -46,3 +46,9 @@ ul {
     
 }
 
+.header-2{
+    background-color: #ffff;
+    width: 100%; 
+    border-bottom: 3px solid #efefef;
+}
+
