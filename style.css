@@ -48,10 +48,16 @@ ul {
 
 .header-2{
     background-color: #ffff;
-    width: 100%; 
-    border-bottom: 3px solid #efefef;
+    width: 980px; 
+    margin: 0 auto;
+    
 }
 
+.menu-urls{
+    height: 70px;
+    border-bottom: 3px solid #efefef;
+
+}
 .menu ul li{
     display: inline-block;
     color: #8b8b8b;
@@ -65,4 +71,19 @@ ul {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    }
+.search {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.col-102{
+    width: 100%;
+    float: left;
+    position: relative;
 }
