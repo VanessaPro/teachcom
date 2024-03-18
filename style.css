@@ -52,3 +52,17 @@ ul {
     border-bottom: 3px solid #efefef;
 }
 
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
