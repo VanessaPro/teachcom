@@ -50,6 +50,7 @@ ul {
     background-color: #ffff;
     width: 980px; 
     margin: 0 auto;
+    padding: 16px;
     
 }
 
@@ -81,6 +82,16 @@ ul {
     text-align: center;
     width: 30%;
     float: right;
+}
+.search input{
+    background-image: url(/img/icone-search.png);
+    background-repeat: no-repeat;
+    height: 15px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
 }
 .col-102{
     width: 100%;
