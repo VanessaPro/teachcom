@@ -72,7 +72,17 @@ ul {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
+}   
+
+
+.menu ul li a:hover{
+    border-bottom: 2px dashed #00bac6;
 }
+
+.menu ul li a:hover{
+   color: #00bac6;
+
+} 
 
 .menu {
     width: 70%;
