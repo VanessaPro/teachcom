@@ -109,7 +109,17 @@ ul {
     position: relative;
 }
 
+
+
+
 .slider-prime{
-    width: 1380px;
-    height: 450px;
+    max-width: 100%;
+	width: 1455px;
+	height: 300px;
+	object-fit: cover;
+ 
 }
+
+
+
+
