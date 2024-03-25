@@ -150,5 +150,10 @@ li.slick-active button {
     top: 600px;
 }
 
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
 
 
