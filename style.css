@@ -119,7 +119,6 @@ ul {
 }
 
 
-
 .slick-dots li button {
     font-size: 0px;
     border: 5px solid #ffffff;
@@ -155,5 +154,12 @@ li.slick-active button {
     display: inline-block;
 }
 
-
+button.slick-prev {
+    border: none;
+    font-size: 0px;
+}
+button.slick-next{
+    border: none;
+    font-size: 0px;
+}
 
