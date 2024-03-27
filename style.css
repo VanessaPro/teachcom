@@ -15,7 +15,7 @@ ul {
     height: 65px;
     
 }
-.main{
+.main, .content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -110,6 +110,7 @@ ul {
 }
 
 
+
 .slider-prime{
     max-width: 100%;
 	width: 1455px;
@@ -135,7 +136,7 @@ ul {
     width: 50%;
     position: absolute;
     left: 50%;
-    top: 600px;
+    top: 500px;
 }
 
 li.slick-active button {
@@ -146,7 +147,7 @@ li.slick-active button {
     width: 50%;
     position: absolute;
     left: 50%;
-    top: 600px;
+    top: 400px;
 }
 
 .slick-dots li {
@@ -163,3 +164,6 @@ button.slick-next{
     font-size: 0px;
 }
 
+.slick-initialized{
+    overflow: hidden;
+   }
