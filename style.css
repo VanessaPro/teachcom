@@ -167,3 +167,18 @@ button.slick-next{
 .slick-initialized{
     overflow: hidden;
    }
+
+.text-emphasis p {
+    font-size: 15px;
+    color: #9a9a9a;
+       
+}
+.text-emphasis h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.text-emphasis{
+text-align: center;
+}
