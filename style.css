@@ -92,6 +92,7 @@ ul {
     text-align: center;
     width: 30%;
     float: right;
+    
 }
 .search input{
     background-image: url(/img/icone-search.png);
@@ -107,6 +108,7 @@ ul {
     width: 100%;
     float: left;
     position: relative;
+   
 }
 
 h3 {
@@ -178,8 +180,9 @@ button.slick-next{
 }
 .text-emphasis h1{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 25px;
     color: #818181;
+    margin-top: 40px;
 }
 
 .text-emphasis{
@@ -229,7 +232,7 @@ text-align: center;
     content: '';
     height: 52px;
     background: #ffffff;
-    background-image: url('../img/setinha.png');
+    background-image: url('./img/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
 }
