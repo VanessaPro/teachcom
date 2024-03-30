@@ -223,7 +223,7 @@ text-align: center;
 }
 
 .block-image-text {
-    background-color: #eeeeee;
+    background-color: #E0FFFF;
 }
 
 .block-image-text:before {
@@ -232,7 +232,7 @@ text-align: center;
     content: '';
     height: 52px;
     background: #ffffff;
-    background-image: url('./img/setinha.png');
+    
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -242,7 +242,7 @@ text-align: center;
     display: inline-block;
     content: '';
     height: 70px;
-    background: #eeeeee;
+    background: #E0FFFF;
 } 
 
 .col-4 {
