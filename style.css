@@ -1,13 +1,13 @@
 
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    }
+body, html {
+    margin: 0;
+    padding: 0;
+}
 
 ul {
     padding: 0px!important; 
 }    
+
 
 
 
@@ -226,6 +226,7 @@ text-align: center;
 
 .block-image-text {
     background-color: #E0FFFF;
+    
 }
 
 .block-image-text:before {
@@ -298,5 +299,4 @@ footer {
     margin: 5px 0;
     text-align: center; /* Alinhando os parágrafos de telefone e e-mail no centro */
 }
-
 
