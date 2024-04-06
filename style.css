@@ -299,6 +299,71 @@ footer {
     margin: 5px 0;
     text-align: center; /* Alinhando os parágrafos de telefone e e-mail no centro */
 }
+/* Default styles */
 
+/* Define general styles for your elements here */
 
+/* Responsive styles */
+@media only screen and (max-width: 980px) {
+    .main, .content, .header-2 {
+        width: 100%; /* Adjust width to fit smaller screens */
+        max-width: 100%; /* Ensure elements don't overflow */
+    }
 
+    .logo {
+        margin-left: 0; /* Remove left margin to center the logo */
+    }
+
+    .network {
+        width: 100%; /* Ensure social icons take full width */
+        margin-top: 1em; /* Add some space between logo and social icons */
+    }
+
+    .network ul li {
+        margin-left: 15px; /* Reduce left margin between social icons */
+    }
+
+    .menu ul {
+        display: flex; /* Use flexbox layout */
+        justify-content: center; /* Centralize os itens do menu */
+        flex-wrap: nowrap; /* Impedir que os itens do menu sejam quebrados em várias linhas */
+        
+    }
+
+    .menu ul li {
+        margin: 0 10px; /* Adicione margem entre os itens do menu */
+        
+    }
+
+    .search {
+        width: 100%; /* Ensure search input takes full width */
+        float: none; /* Remove float to center the search input */
+        margin-top: 1em; /* Add some space between menu and search */
+    }
+
+    .col-3 {
+        width: 100%; /* Ensure column takes full width */
+        float: none; /* Remove float to center the column */
+        margin-left: 0; /* Remove left margin to center the column */
+        margin-top: 2em; /* Add some space between columns */
+        text-align: center; /* Center-align column content */
+    }
+
+    .slider-prime {
+        width: 100%; /* Ensure slider takes full width */
+        max-width: 100%; /* Ensure slider doesn't overflow */
+        height: auto; /* Allow slider height to adjust based on image size */
+    }
+
+    .block-logos .col-4 {
+        width: 100%; /* Ensure logos take full width */
+        text-align: center; /* Center-align logos */
+        margin-top: 1em; /* Add some space between logos */
+    }
+
+    footer {
+        padding: 20px 0; /* Add some padding top and bottom */
+    }
+}
+
+/* Add more media queries as needed for other screen sizes */
