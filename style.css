@@ -250,13 +250,14 @@ text-align: center;
 
 .col-4 {
     float: left;
-    width: 10%;
     text-align: center;
+    width: 19%;
+   
 }
 .col-4 img {
  cursor: pointer;
  margin: 0 auto;
- padding-top: 2em;
+ padding-top: 1em;
  vertical-align: middle;
  height: 50%;
  width: 50%;
@@ -272,7 +273,7 @@ text-align: center;
 }
 
 .block-logos img {
-    margin-top: 3px;
+    margin-top: 25px;
 }    
 
 footer {
@@ -292,62 +293,60 @@ footer {
 }
 
 .contact-title {
-    text-align: center; /* Alinhando o texto "Entre em contato" no centro */
+    text-align: center; 
 }
 
 .contact-info p {
     margin: 5px 0;
-    text-align: center; /* Alinhando os parágrafos de telefone e e-mail no centro */
+    text-align: center; 
 }
-/* Default styles */
 
-/* Define general styles for your elements here */
-
-/* Responsive styles */
 @media only screen and (max-width: 980px) {
     .main, .content, .header-2 {
-        width: 100%; /* Adjust width to fit smaller screens */
-        max-width: 100%; /* Ensure elements don't overflow */
+        width: 100%; 
+        max-width: 100%; 
     }
 
     .logo {
-        margin-left: 0; /* Remove left margin to center the logo */
+        margin-left: 0; 
     }
 
     .network {
-        width: 100%; /* Ensure social icons take full width */
-        margin-top: 1em; /* Add some space between logo and social icons */
+        width: 100%; 
+        margin-top: 1em; 
     }
 
     .network ul li {
-        margin-left: 15px; /* Reduce left margin between social icons */
+        margin-left: 15px; 
     }
 
     .menu ul {
-        display: flex; /* Use flexbox layout */
-        justify-content: center; /* Centralize os itens do menu */
-        flex-wrap: nowrap; /* Impedir que os itens do menu sejam quebrados em várias linhas */
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: nowrap; 
+        
+        float: left;
         
     }
 
     .menu ul li {
-        margin: 0 10px; /* Adicione margem entre os itens do menu */
+        margin: 0 5px; 
         
     }
 
     .search {
-        width: 100%; /* Ensure search input takes full width */
-        float: none; /* Remove float to center the search input */
-        margin-top: 1em; /* Add some space between menu and search */
+        width: 100%; 
+        float: none; 
+        margin-top: 1em; 
     }
 
    
     .col-3 {
-        width: 100%; /* Ensure column takes full width */
-        float: none; /* Remove float to center the column */
-        margin-left: 0; /* Remove left margin to center the column */
-        margin-top: 3em; /* Add some space between columns */
-        text-align: center; /* Center-align column content */
+        width: 100%; 
+        float: none; 
+        margin-left: 0; 
+        margin-top: 3em; 
+        text-align: center; 
     }
 
     .slider-prime {
@@ -363,7 +362,7 @@ footer {
     }
 
     footer {
-        padding: 20px 0; /* Add some padding top and bottom */
+        padding: 15px 0; /* Add some padding top and bottom */
     }
 }
 
