@@ -305,15 +305,48 @@ footer {
     .main, .content, .header-2 {
         width: 100%; 
         max-width: 100%; 
+        
     }
-
+  
+   
+    .menu-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+   
+    
+    .network {
+        display: flex;
+        align-items: center; /* Centralizar verticalmente os ícones da rede social */
+    }
+    
+    .network ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; /* Para alinhar os ícones em linha */
+    }
+    
+    .network ul li {
+        margin-left: 10px; /* Espaçamento entre os ícones */
+    }
+    
+    /* Estilos para os ícones da rede social */
+    .network ul li img {
+        width: 30px; /* Tamanho dos ícones */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+        
     .logo {
         margin-left: 0; 
+        
     }
 
     .network {
-        width: 100%; 
-        margin-top: 1em; 
+        position: relative;
+        z-index: 1;
     }
 
     .network ul li {
@@ -350,20 +383,20 @@ footer {
     }
 
     .slider-prime {
-        width: 100%; /* Ensure slider takes full width */
-        max-width: 100%; /* Ensure slider doesn't overflow */
-        height: auto; /* Allow slider height to adjust based on image size */
+        width: 100%; 
+        max-width: 100%; 
+        height: auto; 
     }
 
     .block-logos .col-4 {
-        width: 100%; /* Ensure logos take full width */
-        text-align: center; /* Center-align logos */
-        margin-top: 1em; /* Add some space between logos */
+        width: 100%; 
+        text-align: center; 
+        margin-top: 1em; 
     }
 
     footer {
-        padding: 15px 0; /* Add some padding top and bottom */
+        padding: 15px 0; 
     }
 }
 
-/* Add more media queries as needed for other screen sizes */
+
