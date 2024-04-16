@@ -147,7 +147,7 @@ h3 {
 }
 
 li.slick-active button {
-    background: #00bac6;
+    background: #00c698;
 }
 .slick-dots {
     margin: 0 auto;
@@ -367,11 +367,31 @@ footer {
         
     }
 
-    .search {
-        width: 100%; 
-        float: none; 
-        margin-top: 1em; 
+    .header-2 {
+        display: flex; /* Use flexbox layout */
+        align-items: center; /* Center-align items vertically */
     }
+    
+    .menu {
+        flex: 1; /* Let the menu grow to fill available space */
+        text-align: center; /* Center-align menu items */
+    }
+    
+.search {
+    width: 80%;
+    flex: 1; /* Adicionando flex para que o elemento se ajuste conforme necessário */
+    display: flex; /* Usando flexbox */
+    justify-content: flex-end; /* Alinhando o conteúdo à direita do contêiner flexível */
+    margin-right: 20px; /* Adicionando margem à direita */
+}
+
+
+  .search input {
+    width: 100%; /* Reduzi a largura para 90% */
+    padding: 12px; /* Aumentei o espaçamento interno para 14px */
+    box-sizing: border-box; /* Garante que o preenchimento e a borda sejam incluídos na largura */
+}
+    
 
    
     .col-3 {
