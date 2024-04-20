@@ -308,6 +308,13 @@ footer {
         
     }
   
+    .slick-dots {
+        margin: 0 auto;
+        width: 30%;
+        position: absolute;
+        top: 280px;
+        
+    }
    
     .menu-main {
         display: flex;
@@ -315,28 +322,37 @@ footer {
         align-items: center;
     }
     
-   
+    .menu {
+        padding-right: 11px; 
+    }
+    
+    .search {
+        padding-left: 11px; 
+    }
+    
+    
+
     
     .network {
         display: flex;
-        align-items: center; /* Centralizar verticalmente os ícones da rede social */
+        align-items: center; 
     }
     
     .network ul {
         list-style: none;
         padding: 0;
         margin: 0;
-        display: flex; /* Para alinhar os ícones em linha */
+        display: flex; 
     }
     
     .network ul li {
-        margin-left: 10px; /* Espaçamento entre os ícones */
+        margin-left: 10px; 
     }
     
-    /* Estilos para os ícones da rede social */
+    
     .network ul li img {
-        width: 30px; /* Tamanho dos ícones */
-        height: auto; /* Mantém a proporção da imagem */
+        width: 30px; 
+        height: auto; 
     }
         
     .logo {
@@ -368,55 +384,58 @@ footer {
     }
 
     .header-2 {
-        display: flex; /* Use flexbox layout */
-        align-items: center; /* Center-align items vertically */
+        display: flex; 
+        align-items: center; 
     }
     
     .menu {
-        flex: 1; /* Let the menu grow to fill available space */
-        text-align: center; /* Center-align menu items */
+        flex: 1; 
+        text-align: center; 
     }
     
 .search {
-    width: 80%;
-    flex: 1; /* Adicionando flex para que o elemento se ajuste conforme necessário */
-    display: flex; /* Usando flexbox */
-    justify-content: flex-end; /* Alinhando o conteúdo à direita do contêiner flexível */
-    margin-right: 20px; /* Adicionando margem à direita */
-}
+    width: 30%;
+    flex: 1; 
+    display: flex; 
+    justify-content: flex-end; 
+    margin-right: 20px; 
+} 
 
 
   .search input {
-    width: 100%; /* Reduzi a largura para 90% */
-    padding: 12px; /* Aumentei o espaçamento interno para 14px */
-    box-sizing: border-box; /* Garante que o preenchimento e a borda sejam incluídos na largura */
+    width: 100%; 
+    padding: 11px; 
+    box-sizing: border-box; 
+    width: 210px;
+
 }
     
 
    
-    .col-3 {
-        width: 100%; 
-        float: none; 
-        margin-left: 0; 
-        margin-top: 3em; 
-        text-align: center; 
-    }
+.col-3 {
+    width: 85%; 
+    float: none; 
+    margin-left: 0; 
+    margin-top: 3em; 
+    text-align: center; 
+    
+}
 
-    .slider-prime {
-        width: 100%; 
-        max-width: 100%; 
-        height: auto; 
-    }
+.slider-prime {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+}
 
-    .block-logos .col-4 {
-        width: 100%; 
-        text-align: center; 
-        margin-top: 1em; 
-    }
+.block-logos .col-4 {
+    width: 100%; 
+    text-align: center; 
+    margin-top: 1em; 
+}
 
-    footer {
-        padding: 15px 0; 
-    }
+footer {
+    padding: 14px 0; 
+}
 }
 
 
