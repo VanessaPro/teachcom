@@ -97,7 +97,7 @@ ul {
     
 }
 .search input{
-    background-image: url('/img/icone-search.png');
+    background-image: url('../teachcom/img/icone-search.png');
     background-repeat: no-repeat;
     height: 15px;
     padding: 12px;
